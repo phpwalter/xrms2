@@ -1,22 +1,7 @@
 {
-	"user": {
-    "id": "id",
-		"name": "name",
-		"company": "company",
-		"moto": "company_catch_phrase",
-		"job": "job",
-		"contact": {
-			"phone": "phone",
-			"email": "email",
-			"address": {
-				"country": "country",
-				"city": "city",
-				"street": "street_address"
-			}
-		},
-		"bank details": {
-			"account number": "bank_account_number",
-			"credit card number": "cc_number"
-		}
-	}
+  "User": {
+    "name": { "string": { "minLength": 3, "maxLength": 10 } },
+    "online": { "boolean": {} },
+    "picture": { "regexp": "https://…" }
+  }
 }
