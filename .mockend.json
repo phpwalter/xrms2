@@ -1,13 +1,10 @@
 {
   "User": {
     "id": {
-      "regexp": "[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}"
-    },
-    "uuid": {
-      "regexp": "[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}"
+      "regexp": "[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}"
     },
     "rando": {
-      "regexp": "[1-9]{1}[0-9]{6}"
+      "regexp": "#[0-9A-F]{6}"
     },
     "name": {
       "string": [
@@ -45,6 +42,17 @@
     },
     "avatar": {
       "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
+    }
+  },
+  "Post": {
+
+  },
+  "Ping": {
+    "name": {
+      "string": [
+        "Thor",
+        "Loki"
+      ]
     }
   }
 }
