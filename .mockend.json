@@ -1,7 +1,18 @@
 {
   "User": {
-    "name": { "string": {} },
-    "online": { "boolean": {} },
-    "picture": { "regexp": "https://…" }
+    "name": {
+      "string": [
+        "Thor",
+        "Loki"
+      ]
+    },
+    "online": {
+      "boolean": {
+
+      }
+    },
+    "avatar": {
+      "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
+    }
   }
 }
