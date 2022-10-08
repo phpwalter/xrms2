@@ -1,6 +1,8 @@
 {
 	"User": {
-		"name": "name",
+		"name": {
+			"name": {}
+		},
 		"online": {
 			"boolean": {}
 		},
