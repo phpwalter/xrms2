@@ -3,8 +3,11 @@
     "id": {
       "int": {
         "min": 0,
-        "max": 10
+        "max": 1000000
       }
+    },
+    "rando": {
+      "regexp": "#[0-9]{6}"
     },
     "name": {
       "string": [
