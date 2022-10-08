@@ -1,4 +1,5 @@
 {
+  "id": "id",
   "name": "name",
   "company": "company",
   "moto": "company_catch_phrase",
@@ -8,8 +9,7 @@
     "email": {
       "username": "username",
       "ip address": "ipv4",
-      "repeat": 2
+      "repeat": 12
     }
-  },
-  "repeat": 12
+  }
 }
