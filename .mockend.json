@@ -1,6 +1,8 @@
 {
-    "name": "name",
-    "address": "address",
-    "ip address": "ipv4",
-    "company": "company"
+	"User": {
+		"name": "name",
+		"address": "address",
+		"ip address": "ipv4",
+		"company": "company"
+	}
 }
