@@ -1,9 +1,38 @@
 {
   "User": {
+    "id": {
+      "int": {
+        "min": 0,
+        "max": 1000000
+      }
+    },
     "name": {
       "string": [
-        "Thor",
-        "Loki"
+        "Beth Stephens",
+        "Evan Bradford",
+        "Angelika Decker",
+        "Amalia Swift",
+        "Arlene Gardiner",
+        "Carolina Churchill",
+        "Iona Woolley",
+        "Blake Walmsley",
+        "Trixie Wilson",
+        "Sheikh Shea",
+        "Theodor Allison",
+        "Kitty Buxton",
+        "Avery Hulme",
+        "Donnie Brandt",
+        "Miah Pitt",
+        "Rehan Carr",
+        "Keeleigh Alfaro",
+        "Abdulrahman Mann",
+        "Saara Manning",
+        "Rosemarie Wall",
+        "Ryley Graham",
+        "Pawel Hatfield",
+        "Sanah Magana",
+        "Jerry Myers",
+        "Gurdeep Fulton"
       ]
     },
     "online": {
